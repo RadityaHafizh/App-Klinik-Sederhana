@@ -8,7 +8,7 @@ Aplikasi ini dibuat menggunakan **Laravel** dan **daisyUI** sebagai framework CS
 
 - PHP &gt;= 8.1
 - Composer
-- Node.js &amp; npm
+- Node.js v20.5.0 &amp; npm 9.8.0
 - MySQL
 
 ---
