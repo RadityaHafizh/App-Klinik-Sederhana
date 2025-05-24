@@ -11,14 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('pemeriksaans', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->string('role')->default(value: 'pendaftaran');
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
-            $table->rememberToken();
+            $table->foreignId('pasien_id')->constrained()->onDelete('cascade');
+            $table->text('keluhan')->nullable();
+            $table->text('diagnosa')->nullable();
+            // Hapus kolom obat_id karena relasi many-to-many lewat tabel pivot resep
             $table->timestamps();
         });
     }
@@ -28,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('pemeriksaans');
     }
 };

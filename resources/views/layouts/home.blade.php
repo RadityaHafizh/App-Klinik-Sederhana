@@ -1,10 +1,9 @@
-<!-- resources/views/layouts/app.blade.php -->
+<!-- resources/views/layouts/home.blade.php -->
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8" />
     <title>Klinik Sederhana</title>
-    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
@@ -55,9 +54,7 @@
         </div>
     </div>
 
-    <div class="container mx-auto p-4">
-        @yield('content')
-    </div>
+    @yield('content')
 </body>
 
 <script>
