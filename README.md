@@ -17,7 +17,7 @@ Aplikasi ini dibuat menggunakan **Laravel** dan **daisyUI** sebagai framework CS
 
 1. **Clone repositori**
     ```bash
-    git clone <url-repo-anda>
+    git clone https://github.com/RadityaHafizh/App-Klinik-Sederhana.git
     cd App-Klinik-Sederhana
     ```
 
