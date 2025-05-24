@@ -54,9 +54,14 @@ Aplikasi ini dibuat menggunakan **Laravel** dan **daisyUI** sebagai framework CS
     ```
 
 7. **Migrasi dan seed database**
-    ```bash
-    php artisan migrate:fresh --seed
-    ```
+   Jika database belum ada:
+   ```bash
+   php artisan migrate --seed
+   ```
+   Jika database sudah ada:
+   ```bash
+   php artisan migrate:fresh --seed
+   ```
 
 8. **Build assets frontend**
     ```bash
