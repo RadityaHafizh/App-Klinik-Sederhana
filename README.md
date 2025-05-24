@@ -18,7 +18,7 @@ Aplikasi ini dibuat menggunakan **Laravel** dan **daisyUI** sebagai framework CS
 1. **Clone repositori**
     ```bash
     git clone <url-repo-anda>
-    cd app-sederhana
+    cd App-Klinik-Sederhana
     ```
 
 2. **Install dependensi**
@@ -55,7 +55,7 @@ Aplikasi ini dibuat menggunakan **Laravel** dan **daisyUI** sebagai framework CS
 
 7. **Migrasi dan seed database**
     ```bash
-    php artisan migrate --seed
+    php artisan migrate:fresh --seed
     ```
 
 8. **Build assets frontend**
@@ -67,6 +67,13 @@ Aplikasi ini dibuat menggunakan **Laravel** dan **daisyUI** sebagai framework CS
     ```bash
     php artisan serve
     ```
+
+10.  **Login Akun Default:**  
+> - Akun **pendaftaran**: `pendaftaran@klinik.test`  
+> - Akun **dokter**: `dokter@klinik.test`  
+> - Akun **perawat**: `perawat@klinik.test`  
+> - Akun **apoteker**: `apoteker@klinik.test`  
+> - **Password untuk semua akun:** `password`
 
 ---
 
