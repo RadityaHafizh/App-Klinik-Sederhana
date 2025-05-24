@@ -54,6 +54,7 @@ Aplikasi ini dibuat menggunakan **Laravel** dan **daisyUI** sebagai framework CS
     ```
 
 7. **Migrasi dan seed database**
+   
    Jika database belum ada:
    ```bash
    php artisan migrate --seed
@@ -68,7 +69,7 @@ Aplikasi ini dibuat menggunakan **Laravel** dan **daisyUI** sebagai framework CS
     npm run build
     ```
 
-9. **Jalankan aplikasi**
+9.  **Jalankan aplikasi**
     ```bash
     php artisan serve
     ```
