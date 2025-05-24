@@ -23,7 +23,7 @@ Aplikasi ini dibuat menggunakan **Laravel** dan **daisyUI** sebagai framework CS
 
 2. **Install dependensi**
     ```bash
-    composer install
+    composer update
     npm install
     ```
 
